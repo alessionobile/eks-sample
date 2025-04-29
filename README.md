@@ -56,6 +56,9 @@ region = "eu-central-1"
 
 4. Curl or browse the ```api_url``` reported in the output.
 
+> **Notice:**
+> The api_url endpoint might take a few seconds to become available.
+
 ### Clean up
 
 1. Open [CloudShell in eu-central-1](https://eu-central-1.console.aws.amazon.com/cloudshell/home?region=eu-central-1#)
