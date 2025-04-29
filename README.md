@@ -20,11 +20,11 @@ The deployment requires AdministratorAccess to create CodeBuild pipelines, deplo
 
 This deployment architecture has been built with two objectives in mind:
 
-**1. Deploy/destroy in one simple step:** stacks can be deployed/destroyed by running [deploy.sh](../blob/main/deploy.sh) and [destroy.sh](../blob/main/destroy.sh) from AWS CloudShell.
+**1. Deploy/destroy in one simple step:** stacks can be deployed/destroyed by running [deploy.sh](../main/deploy.sh) and [destroy.sh](../main/destroy.sh) from AWS CloudShell.
 
 **2. Eliminate local libraries dependencies:** the workflow runs entirely on AWS services and does not require a local environment.
 - [AWS CloudShell](https://aws.amazon.com/cloudshell/) is used to initiate a terminal session in your AWS Console and initiate deploy/destroy;
-- [Terraform](https://developer.hashicorp.com/terraform) is used to deploy the [src/terraform](../blob/main/src/terraform) project;
+- [Terraform](https://developer.hashicorp.com/terraform) is used to deploy the [src/terraform](../main/src/terraform) project;
 
 ![](./docs/diagrams/eks-sample-deployment.png)
 
