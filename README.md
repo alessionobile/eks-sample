@@ -14,7 +14,7 @@ Check your AWS IAM User or IAM Role permissions.
 > **Warning:**
 > Make sure you are logged in as an IAM User or IAM Role having the [AdministratorAccess](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AdministratorAccess.html) IAM managed policy attached.
 
-The deployment requires AdministratorAccess to create CodeBuild pipelines, deploy CDK stacks, and respective IAM Roles.
+This project requires AdministratorAccess to deploy VPCs, EKS cluster, and relative IAM roles.
 
 ### Deployment Architecture
 
